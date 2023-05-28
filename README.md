@@ -34,7 +34,7 @@ Here are a few of my recent projects:
 
 ## Let's Connect!
 
-Feel free to reach out to me on [LinkedIn](www.linkedin.com/in/sagar-mishra-developer). I'm always open to discussing new ideas, collaborating on projects, or just chatting about our shared interests.
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/sagar-mishra-developer). I'm always open to discussing new ideas, collaborating on projects, or just chatting about our shared interests.
 
 ---
 
