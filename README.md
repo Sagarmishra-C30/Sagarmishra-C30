@@ -3,8 +3,11 @@
 
 ## About Me
 
-I'm a passionate and enthusiastic software engineer, always eager to learn and grow. As a fresher developer, I'm proficient in Python and have a strong foundation in Java and JavaScript. I'm also well-versed in the MERN stack and Flask. When I'm not coding, you can find me reading a wide variety of books 📚 or watching my favorite animes 🍿.
+I'm a passionate and enthusiastic software developer, always eager to learn and grow. As a fresher developer, I'm proficient in Python and have a strong foundation in Java and JavaScript. I'm also well-versed in the MERN stack and Flask. 
 
+When I'm not coding, you can find me reading a wide variety of books 📚 or watching my favorite animes 🍿.
+
+### 😄 Pronouns: He/Him
 
 ## Skills
 
@@ -49,6 +52,6 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
+- 😄 Pronouns: ..
 - ⚡ Fun fact: ...
 -->
