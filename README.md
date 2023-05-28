@@ -1,4 +1,4 @@
-### 👋 Hey there, I'm [Sagar Mishra]! 🚀
+## 👋 Hey there, I'm Sagar Mishra 🚀
 # Welcome to My GitHub Profile! 👋
 
 ## About Me
@@ -27,6 +27,7 @@ Here are a few of my recent projects:
 - [Project 2](https://github.com/your-project-2)
 
 - [Project 3](https://github.com/your-project-3)
+
 
 ## Let's Connect!
 
