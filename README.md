@@ -25,11 +25,11 @@ When I'm not coding, you can find me reading a wide variety of books 📚 or wat
 
 Here are a few of my recent projects:
 
-- [Project 1](https://github.com/your-project-1)
+- [Chatroom](https://github.com/Sagarmishra-C30/Chatroom)
 
-- [Project 2](https://github.com/your-project-2)
+- [Flappybird](https://github.com/Sagarmishra-C30/Flappybird)
 
-- [Project 3](https://github.com/your-project-3)
+- [BlogIt](https://github.com/Sagarmishra-C30/BlogIt)
 
 
 ## Let's Connect!
