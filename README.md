@@ -24,12 +24,13 @@ When I'm not coding, you can find me reading a wide variety of books 📚 or wat
 ## Projects
 
 Here are a few of my recent projects:
+- [Instantly](https://github.com/Sagarmishra-C30/Instantly-App)
+
+- [BlogIt](https://github.com/Sagarmishra-C30/BlogIt)
 
 - [Chatroom](https://github.com/Sagarmishra-C30/Chatroom)
 
 - [Flappybird](https://github.com/Sagarmishra-C30/Flappybird)
-
-- [BlogIt](https://github.com/Sagarmishra-C30/BlogIt)
 
 
 ## Let's Connect!
