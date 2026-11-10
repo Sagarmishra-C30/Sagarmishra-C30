@@ -13,10 +13,4 @@ My day-to-day code lives in the company's private repositories ([5,000+ contribu
 - **Performance.** Per-request query counting, then batching: admin order lists went from 2,136 queries a page to 14.
 - **Storefront.** A redesign on a new design system, a made-to-measure flow, and side-cart checkout with OTP login.
 
-## Personal projects
-
-- **[aniknow](https://github.com/Sagarmishra-C30/aniknow)**: local-first anime tracking and discovery. Next.js, React, TypeScript, IndexedDB.
-- **[AniNotch](https://github.com/Sagarmishra-C30/AniNotch)**: Python automation that keeps an anime watchlist in Notion up to date from the Jikan API.
-- **paisa**: offline Android finance app that turns bank SMS and statements into a reconciled ledger. Expo/React Native, TypeScript. No network permission by design. Source private for now.
-
 [LinkedIn](https://www.linkedin.com/in/sagar-mishra-developer) · sagarmishra.code@gmail.com
