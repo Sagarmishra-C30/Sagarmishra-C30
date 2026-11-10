@@ -1,58 +1,21 @@
-## 👋 Hey there, I'm Sagar Mishra 🚀
-# Welcome to My GitHub Profile! 👋
+# Sagar Mishra
 
-## About Me
+Full stack engineer working in Python, Flask, and MySQL. Since 2023 I've been the only engineer at [Jaey](https://www.jaey.in), a D2C fashion brand in Mumbai, building and running its storefront, payments, accounting, inventory, and servers.
 
-I'm a passionate and enthusiastic software developer, always eager to learn and grow. As a fresher developer, I'm proficient in Python and have a strong foundation in Java and JavaScript. I'm also well-versed in the MERN stack and Flask. 
+## Work
 
-When I'm not coding, you can find me reading a wide variety of books 📚 or watching my favorite animes 🍿.
+My day-to-day code lives in the company's private repositories, so here's what I built there:
 
-### 😄 Pronouns: He/Him
+- **Payments.** Migrated from Razorpay to Cashfree with both gateways running side by side behind a switch, then added one-click checkout and a circuit breaker that falls back to Razorpay during a Cashfree outage. Webhooks and refunds are safe to retry: deduplication on the gateway's payment ID, and refund IDs reused as idempotency keys.
+- **Money and accounting.** A wallet and gift cards built on expiring credit lots, with row-locked spends and a balance computed from the lots. GST invoicing with gapless numbering under concurrent workers, credit notes, and the exports the books are kept in.
+- **Orders and operations.** The order and item status timeline, an audited status-reversal tool, Blue Dart shipping with returns and exchanges, and a barcode/QR inventory system with a Windows label-printing app (code signing, auto-update, CI releases).
+- **Platform.** Exports and notifications run on workers on a second server with a MySQL read replica, draining a job queue built in the main database (`SKIP LOCKED` claims, leases, backoff); tuning cut the workers' database statement volume from 1M a day to 28K. Production MySQL upgraded from 8.0 to 8.4 with about six seconds of downtime. TLS and least-privilege database logins, nightly backups with a passed restore drill, and a watchdog that restarts or redeploys on failed health checks.
+- **Performance.** Per-request query counting, then batching: admin order lists went from 2,136 queries a page to 14.
+- **Storefront.** A redesign on a new design system, a made-to-measure flow, and side-cart checkout with OTP login.
 
-## Skills
+## Personal projects
 
-- Programming Languages: Python, Java, JavaScript, C, C++
+- **[paisa](https://github.com/Sagarmishra-C30/paisa)**: offline Android finance app that turns bank SMS and statements into a reconciled ledger. Expo/React Native, TypeScript. No network permission by design.
+- **[aniknow](https://github.com/Sagarmishra-C30/aniknow)**: local-first anime tracking and discovery. Next.js, React, TypeScript, IndexedDB.
 
-- Web Development: HTML5, CSS3, Bootstrap, React.js, Node.js, Express
-
-- Databases: MongoDB, MySQL
-
-- Frameworks & Libraries: MERN Stack, Flask
-
-- Version Control: Git, GitHub
-
-## Projects
-
-Here are a few of my recent projects:
-- [Instantly](https://github.com/Sagarmishra-C30/Instantly-App)
-
-- [BlogIt](https://github.com/Sagarmishra-C30/BlogIt)
-
-- [Chatroom](https://github.com/Sagarmishra-C30/Chatroom)
-
-- [Flappybird](https://github.com/Sagarmishra-C30/Flappybird)
-
-
-## Let's Connect!
-
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/sagar-mishra-developer). I'm always open to discussing new ideas, collaborating on projects, or just chatting about our shared interests.
-
----
-
-⭐️ From [Sagar Mishra](https://github.com/Sagarmishra-C30)
-
-
-<!--
-**Sagarmishra-C30/Sagarmishra-C30** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ..
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://www.linkedin.com/in/sagar-mishra-developer) · sagarmishra.code@gmail.com
