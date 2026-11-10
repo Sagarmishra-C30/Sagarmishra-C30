@@ -4,7 +4,7 @@ Full stack engineer working in Python, Flask, and MySQL. Since 2023 I've been th
 
 ## Work
 
-My day-to-day code lives in the company's private repositories, so here's what I built there:
+My day-to-day code lives in the company's private repositories ([5,000+ contributions since July 2023](https://github.com/SagarMishra-jaey) on my work account), so here's what I built there:
 
 - **Payments.** Migrated from Razorpay to Cashfree with both gateways running side by side behind a switch, then added one-click checkout and a circuit breaker that falls back to Razorpay during a Cashfree outage. Webhooks and refunds are safe to retry: deduplication on the gateway's payment ID, and refund IDs reused as idempotency keys.
 - **Money and accounting.** A wallet and gift cards built on expiring credit lots, with row-locked spends and a balance computed from the lots. GST invoicing with gapless numbering under concurrent workers, credit notes, and the exports the books are kept in.
@@ -15,7 +15,8 @@ My day-to-day code lives in the company's private repositories, so here's what I
 
 ## Personal projects
 
-- **[paisa](https://github.com/Sagarmishra-C30/paisa)**: offline Android finance app that turns bank SMS and statements into a reconciled ledger. Expo/React Native, TypeScript. No network permission by design.
 - **[aniknow](https://github.com/Sagarmishra-C30/aniknow)**: local-first anime tracking and discovery. Next.js, React, TypeScript, IndexedDB.
+- **[AniNotch](https://github.com/Sagarmishra-C30/AniNotch)**: Python automation that keeps an anime watchlist in Notion up to date from the Jikan API.
+- **paisa**: offline Android finance app that turns bank SMS and statements into a reconciled ledger. Expo/React Native, TypeScript. No network permission by design. Source private for now.
 
 [LinkedIn](https://www.linkedin.com/in/sagar-mishra-developer) · sagarmishra.code@gmail.com
